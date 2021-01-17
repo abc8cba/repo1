@@ -7,11 +7,9 @@ public class Address {
 	private String pincode;	
 	
 	public Address() {
-		super();
-		// TODO Auto-generated constructor stub
+		
 	}
-	public Address(String country, String state, String city, String pincode) {
-		super();
+	public Address(String country, String state, String city, String pincode) {		
 		this.country = country;
 		this.state = state;
 		this.city = city;
